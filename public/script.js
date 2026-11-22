@@ -56,7 +56,7 @@ form.addEventListener('submit', function(event) {
     })
     .catch(error => {
         console.error('Fel:', error);
-        alert('Ett fel uppstod när produkten skulle sparas.');
+        alert('kunde inte spara produkten, försök igen.');
     });
 });
 
@@ -95,6 +95,6 @@ function deleteProduct(id, rowElement) {
     })
     .catch(error => {
         console.error('Fel:', error);
-        alert('Ett fel uppstod när produkten skulle raderas.');
+        alert('kunde inte radera produkten.');
     });
 }
