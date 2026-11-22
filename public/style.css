@@ -86,13 +86,12 @@ th {
 
 .delete-btn {
     background-color: #dc3545;
+    color: white;
     padding: 5px 10px;
     font-size: 14px;
     border-radius: 3px;
     border: none;
-    color: white;
     cursor: pointer;
-    justify-self: center;
 }
 
 .delete-btn:hover {
